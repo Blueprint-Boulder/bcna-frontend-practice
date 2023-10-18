@@ -1,4 +1,4 @@
-// import .....
+import { Counter } from "./components/Counter";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       </section>
       <section>
         <h2 className="text-3xl font-bold text-center">COUNTER</h2>
+        <Counter />
       </section>
     </div>
   );

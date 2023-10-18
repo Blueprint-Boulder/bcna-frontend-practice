@@ -9,8 +9,10 @@
 
 import react from "react";
 
-function Button() {
-
+function Button(props) {
+    return (
+        <button onClick={props.handleClick}>{props.text}</button>
+    )
 }
 
-// export {} 
+export {Button}

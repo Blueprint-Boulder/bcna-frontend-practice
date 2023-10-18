@@ -9,7 +9,8 @@
 // 2. Set up a number with the value of a state variable you create
 //         hint: const [varName, setVarName] = useState(initialValue)
 // 3. Set up and export the button components then import them here 
-// 4. Export your counter and import to the main app!
+// 4. Use tailwind for layout and styling!
+// 5. Export your counter and import to the main app!
 
 import react, { useState } from "react";
 
